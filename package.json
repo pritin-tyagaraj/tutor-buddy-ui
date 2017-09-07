@@ -1,0 +1,30 @@
+{
+  "name": "tutor-buddy-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sagui build",
+    "dist": "sagui dist",
+    "format": "sagui format",
+    "start": "sagui develop --port 8006",
+    "test": "sagui test",
+    "test:lint": "sagui test:lint",
+    "test:typecheck": "sagui test:typecheck",
+    "test:unit": "sagui test:unit --coverage",
+    "test:unit:watch": "sagui test:unit --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sagui": "^11.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.0",
+    "copy-webpack-plugin": "^4.0.1",
+    "react": "^15.6.1",
+    "react-bootstrap": "^0.31.3",
+    "react-dom": "^15.6.1"
+  }
+}
