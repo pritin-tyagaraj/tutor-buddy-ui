@@ -21,7 +21,6 @@
     "sagui": "^11.1.0"
   },
   "dependencies": {
-    "bootstrap": "^3.3.0",
     "copy-webpack-plugin": "^4.0.1",
     "react": "^15.6.1",
     "react-bootstrap": "^0.31.3",
