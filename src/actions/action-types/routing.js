@@ -1,0 +1,4 @@
+export default {
+  NAV_TO_DASHBOARD: 'NAV_TO_DASHBOARD',
+  NAV_TO_BATCHES: 'NAV_TO_BATCHES',
+}

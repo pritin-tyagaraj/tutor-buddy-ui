@@ -1,0 +1,4 @@
+export default {
+  TOGGLE_APP_DRAWER: 'TOGGLE_APP_DRAWER',
+  USER_SIGN_OUT: 'USER_SIGN_OUT',
+}
