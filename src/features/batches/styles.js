@@ -11,4 +11,9 @@ export default theme => ({
       marginTop: 64,
     },
   },
+  createBatchFAB: {
+    position: 'fixed',
+    right: '30px',
+    bottom: '30px',
+  },
 })

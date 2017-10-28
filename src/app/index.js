@@ -11,10 +11,11 @@ import React from 'react'
 import { Route, Router, browserHistory } from 'react-router'
 import { routerMiddleware, syncHistoryWithStore } from 'react-router-redux'
 import styles from './styles'
+import thunk from 'redux-thunk'
 import 'typeface-roboto'
 
 const middleware = routerMiddleware(browserHistory)
-let store = createStore(appReducers, applyMiddleware(middleware))
+let store = createStore(appReducers, applyMiddleware(middleware, thunk))
 let theme = createMuiTheme()
 
 const history = syncHistoryWithStore(browserHistory, store)
